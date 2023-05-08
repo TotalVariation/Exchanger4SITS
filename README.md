@@ -5,6 +5,14 @@ The official code repository for paper "Rethinking the Encoding of Satellite Ima
 [![GitHub Stars](https://img.shields.io/github/stars/TotalVariation/Exchanger4SITS?style=social)](https://github.com/TotalVariation/Exchanger4SITS)
 [![Github Forks](https://img.shields.io/github/forks/TotalVariation/Exchanger4SITS?style=social)](https://github.com/TotalVariation/Exchanger4SITS)
 
+## Schematic Overview of **Collect--Update--Distribute**
+
+![schematic illustration](./figs/diagram.png)
+
+## Qualitative Results from Exchanger+Mask2Former on PASTIS
+
+<img src="./figs/pastis_preds.gif" alt="qualitative results" style="width:480px;height:480px;">
+
 ## New SOTA Results on [PASTIS Benchmark](https://github.com/VSainteuf/pastis-benchmark) Dataset
 ### PASTIS - Semantic Segmentation
 
