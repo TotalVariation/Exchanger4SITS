@@ -1,9 +1,13 @@
 # Exchanger4SITS: Rethinking the Encoding of Satellite Image Time Series
-The official code repository for paper "Rethinking the Encoding of Satellite Image Time Series".
+The official code repository for the paper "Rethinking the Encoding of Satellite Image Time Series".
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2305.02086)
 [![GitHub Stars](https://img.shields.io/github/stars/TotalVariation/Exchanger4SITS?style=social)](https://github.com/TotalVariation/Exchanger4SITS)
 [![Github Forks](https://img.shields.io/github/forks/TotalVariation/Exchanger4SITS?style=social)](https://github.com/TotalVariation/Exchanger4SITS)
+
+## News
+1. The preprint is under review.
+2. The codebase is still under construction and therefore is subject to further modifications.
 
 ## Schematic Overview of **Collect--Update--Distribute**
 
@@ -55,7 +59,7 @@ If you find our work or code useful in your research, please consider citing the
 
 ## Acknowledgements
 
-The code base is built upon the following great work:
+The codebase is built upon the following great work:
 
 - [GPViT](https://github.com/ChenhongyiYang/GPViT)
 - [Mask2Former](https://github.com/facebookresearch/Mask2Former)
