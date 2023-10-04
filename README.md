@@ -1,13 +1,18 @@
-# Exchanger4SITS: Rethinking the Encoding of Satellite Image Time Series
-The official code repository for the paper "Rethinking the Encoding of Satellite Image Time Series".
+# Exchanger4SITS: Revisiting the Encoding of Satellite Image Time Series
+The official code repository for the paper "Revisiting the Encoding of Satellite Image Time Series".
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2305.02086)
 [![GitHub Stars](https://img.shields.io/github/stars/TotalVariation/Exchanger4SITS?style=social)](https://github.com/TotalVariation/Exchanger4SITS)
 [![Github Forks](https://img.shields.io/github/forks/TotalVariation/Exchanger4SITS?style=social)](https://github.com/TotalVariation/Exchanger4SITS)
 
-## News
-1. The preprint is under review.
-2. The codebase is still under construction and therefore is subject to further modifications.
+## News 
+- ~~The preprint is under review.~~
+- ~~The codebase is still under construction and therefore is subject to further modifications.~~
+- The paper has been accepted to BMVC 2023 as an oral presentation.
+- The model weights have been made available on [Zenodo](https://zenodo.org/record/8406435).
+- The slides, poster, and accompanying video will be released after BMVC on a separate project page.
+- I have been focusing on expanding this work to a journal paper and the code is subject to further modifications.
+
 
 ## Schematic Overview of **Collect--Update--Distribute**
 
@@ -44,6 +49,9 @@ The official code repository for the paper "Rethinking the Encoding of Satellite
 
 ![License: MIT](https://img.shields.io/github/license/TotalVariation/Exchanger4SITS)
 
+## Notes
+- The panoptic segmentation model Exchanger+Mask2Former has been trained by splitting the input into four 64x64 patches and stitch
+the prediction results together. Later on, I found this trick is crucial for replicating the results.
 ## Citation
 
 If you find our work or code useful in your research, please consider citing the following BibTex entry:
@@ -66,3 +74,5 @@ The codebase is built upon the following great work:
 - [utae-paps](https://github.com/VSainteuf/utae-paps)
 - [tpe](https://github.com/jnyborg/tpe)
 - [DeepSatModels](https://github.com/michaeltrs/DeepSatModels)
+
+I would like to thank Zenodo for hosting the model weights and appreciate the constructive and insightful comments from BMVC reviewers.
