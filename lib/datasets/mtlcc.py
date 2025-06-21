@@ -49,7 +49,7 @@ class MTLCCReader(data.Dataset):
         self.ignore_index = config.LOSS.IGNORE_INDEX
         self.void_label = 17 # 18 ignore unknown
         self.max_val = 65535
-        self.data_paths = pd.read_csv(os.path.join(self.root, f'{mode}_paths.csv'))
+        self.data_paths = pd.read_csv(os.path.join(self.root, f'{mode}_paths.csv'), header=None, names=["paths"])
         self.label_remap = remap_label_dict
         self.z_norm = config.DATASET.Z_NORM
         self.random_crop = config.TRAIN.RANDOM_CROP
