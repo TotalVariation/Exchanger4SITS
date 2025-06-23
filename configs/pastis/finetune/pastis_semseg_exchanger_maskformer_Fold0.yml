@@ -20,7 +20,7 @@ DATASET:
   N_FOLD: 0
   PAD_VALUE: 0
   READER: PASTISReader
-  ROOT: /home/cai-x/data/PASTIS-R
+  ROOT: /home/perezmaf/data/pastis-dataset
   TASK_TYPE: sem_seg
   TEMP_DROP_RATE: [[0.2, 0.4]]
   TEST_TILES: [{'year': 2017, 'country': 'france', 'tile': '31TCJ'}]
@@ -52,7 +52,7 @@ GPBLOCK:
   NUM_HEADS: 8
   QKV_BIAS: True
   UNTIED_POS_ENCODE: True
-LOG_DIR: /home/cai-x/crop_cls/proj_001/Exchanger4SITS/log
+LOG_DIR: /home/perezmaf/crop_cls/proj_001/Exchanger4SITS/log
 LOSS:
   FOCAL: [0.25, 2.0]
   IGNORE_INDEX: -1
@@ -100,12 +100,12 @@ MASKFORMER:
   PRE_NORM: False
 MODEL:
   NAME: Segmentor
-  PRETRAINED: /home/cai-x/crop_cls/proj_001/Exchanger4SITS/output/PASTIS-R_PixelSet/pastis_pixelset_exchanger_2stages_8tokens/Fold_0/final_state.pth
+  PRETRAINED: /home/perezmaf/crop_cls/proj_001/Exchanger4SITS/output/PASTIS-R_PixelSet/pastis_pixelset_exchanger_2stages_8tokens/Fold_0/final_state.pth
 OPTIMIZER:
   MOMENTUM: 0.9
   TYPE: adamw
   WD: 0.05
-OUTPUT_DIR: /home/cai-x/crop_cls/proj_001/Exchanger4SITS/output
+OUTPUT_DIR: /home/perezmaf/crop_cls/proj_001/Exchanger4SITS/output
 PANOPTIC_SEGMENTOR:
   MAX_TEMP_LEN: 1000
   PE_DIM: 128
