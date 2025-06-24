@@ -199,6 +199,9 @@ class PASTISReader(data.Dataset):
         return sample
 
     def prepare_dates(self, date_dict):
+        if type(date_dict) == str:
+            date_dict = json.loads(date_dict)
+
         d = pd.DataFrame().from_dict(date_dict, orient='index')
         d = d[0].apply(
             lambda x: (
