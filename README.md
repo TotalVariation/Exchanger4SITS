@@ -6,7 +6,7 @@ The official code repository for the paper "Revisiting the Encoding of Satellite
 [![Github Forks](https://img.shields.io/github/forks/TotalVariation/Exchanger4SITS?style=social)](https://github.com/TotalVariation/Exchanger4SITS)
 
 ## Requirements
-
+```
 conda create -n exchanger
 conda activate exchanger
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
@@ -22,9 +22,9 @@ Already installed as requirements by detectron2:
 [X] conda install -c conda-forge tensorboard
 [X] conda install -c conda-forge fvcore
 [X] conda install -c conda-forge iopath
-
+```
 ---
-
+```
 conda create -n exchanger
 conda activate exchanger
 conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.7 -c pytorch -c nvidia
@@ -35,7 +35,8 @@ pip install torch-scatter -f https://data.pyg.org/whl/torch-2.0.0+cu117.html
 pip install -e detectron2
 pip install opencv-python
 pip install "numpy<2"
-
+```
+---
 ## News 
 - ~~The preprint is under review.~~
 - ~~The codebase is still under construction and therefore is subject to further modifications.~~
